@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./styles.css" />
     <title>cursor_ui_clone</title>
   </head>
@@ -33,7 +37,10 @@
           to code with AI.
         </h1>
         <button class="btn btn--cta btn--download">
-          Download for Windows<span>⤓</span>
+          Download for Windows <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16" style="fill: var(--bg-primary);">
+  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+</svg>
         </button>
         <div class="hero__img">
           <img src="./assets/hero_img.png" alt="hero_img" />
@@ -101,7 +108,8 @@
             A human-AI programmer, orders of magnitude more effective than any
             developer alone.
           </p>
-          <span class="featureOne__link">Learn about Agent →</span>
+          <span class="featureOne__link">Learn about Agent <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" style="fill: rgb(245,78,0);">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></span>
         </div>
         <div class="featureOne__right">
           <img src="./assets/feature_one.png" alt="feature_one" />
@@ -117,7 +125,8 @@
             Our custom tab model predicts your next action with striking speed
             and precision
           </p>
-          <span class="featureTwo__link">Learn about Agent →</span>
+          <span class="featureTwo__link">Learn about Tab <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" style="fill: rgb(245,78,0);">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></span>
         </div>
       </section>
       <section class="featureThree">
@@ -127,12 +136,320 @@
             Cursor is in GitHub reviewing your PRs, a teammate in Slack, and
             anywhere else you work.
           </p>
-          <span class="featureThree__link">Learn about Agent →</span>
+          <span class="featureThree__link">Learn about Agent <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" style="fill: rgb(245,78,0);">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></span>
         </div>
         <div class="featureThree__right">
           <img src="./assets/feature_three.png" alt="feature_three" />
         </div>
       </section>
+      <section class="testimonials">
+        <h2 class="testimonials__title">The new way to build software.</h2>
+        <div class="testimonials__container">
+          <div class="testimonials__card">
+            <p class="testimonials__testimonial">
+              It was night and day from one batch to another, adoption went from
+              single digits to over 80%. It just spread like wildfire, all the
+              best builders were using Cursor.
+            </p>
+            <div class="user">
+              <img
+                class="user__img"
+                src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/diana-hu-avatar.png"
+                alt="user_1"
+              />
+              <div class="user__data">
+                <p class="user__name">Diana Hu</p>
+                <p class="user__job">General Partner, Y Combinator</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__testimonial">
+              The most useful AI tool that I currently pay for, hands down, is
+              Cursor. It's fast, autocompletes when and where you need it to,
+              handles brackets properly, sensible keyboard shortcuts,
+              bring-your-own-model... everything is well put together.
+            </p>
+            <div class="user">
+              <img
+                class="user__img"
+                src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/shadcn-avatar.png"
+                alt="user_2"
+              />
+              <div class="user__data">
+                <p class="user__name">shadcn</p>
+                <p class="user__job">Creator of shadcn/ui</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__testimonial">
+              The best LLM applications have an autonomy slider: you control how
+              much independence to give the AI. In Cursor, you can do Tab
+              completion, Cmd+K for targeted edits, or you can let it rip with
+              the full autonomy agentic version.
+            </p>
+            <div class="user">
+              <img
+                class="user__img"
+                src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/andrej-karpathy-avatar.png"
+                alt="user_3"
+              />
+              <div class="user__data">
+                <p class="user__name">Andrej Karpathy</p>
+                <p class="user__job">CEO, Eureka Labs</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__testimonial">
+              Cursor quickly grew from hundreds to thousands of extremely
+              enthusiastic Stripe employees. We spend more on R&D and software
+              creation than any other undertaking, and there's significant
+              economic outcomes when making that process more efficient and
+              productive.
+            </p>
+            <div class="user">
+              <img
+                class="user__img"
+                src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/patrick-collison-avatar.png"
+                alt="user_4"
+              />
+              <div class="user__data">
+                <p class="user__name">Patrick Collison</p>
+                <p class="user__job">Co-Founder & CEO, Stripe</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__testimonial">
+              It's official. 
+              <br></br>
+              I hate vibe coding.
+              I love Cursor tab coding. 
+              <br></br>
+              It's wild.
+            </p>
+            <div class="user">
+              <img
+                class="user__img"
+                src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/theprimeagen-avatar.png"
+                alt="user_5"
+              />
+              <div class="user__data">
+                <p class="user__name">ThePrimeagen</p>
+                <p class="user__job">@ThePrimeagen</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__testimonial">
+              It's definitely becoming more fun to be a programmer. It's less
+              about digging through pages and more about what you want to
+              happen. We are at the 1% of what's possible, and it's in
+              interactive experiences like Cursor where models like GPT-5 shine
+              brightest.
+            </p>
+            <div class="user">
+              <img
+                class="user__img"
+                src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/avatars/greg-brockman-avatar.jpg"
+                alt="user_6"
+              />
+              <div class="user__data">
+                <p class="user__name">Greg Brockman</p>
+                <p class="user__job">President, OpenAI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="stories">
+        <h2 class="stories__title">Stay on the frontier</h2>
+        <div class="stories__container">
+          <div class="stories__card">
+            <div class="stories__data">
+              <h3 class="stories__subtittle">Access the best models</h3>
+              <p class="stories__desc">Choose between every cutting-edge model from OPenAI, Anthropic, Gemini, and xAI.</p>
+              <a href="#" class="stories__link">Explore models <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16" style="fill: rgb(245,78,0);">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+</svg></a>
+            </div>
+            <img class="stories__img" src="./assets/story_1.png" alt="story_1"/>
+          </div>
+          <div class="stories__card">
+            <div class="stories__data">
+              <h3 class="stories__subtittle">Access the best models</h3>
+            <p class="stories__desc">Choose between every cutting-edge model from OPenAI, Anthropic, Gemini, and xAI.</p>
+            <a href="#" class="stories__link">Explore models <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16" style="fill: rgb(245,78,0);">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+</svg></a>
+            </div>
+            <img class="stories__img" src="./assets/story_2.png" alt="story_2"/>
+          </div>
+          <div class="stories__card">
+            <div class="stories__data">
+              <h3 class="stories__subtittle">Access the best models</h3>
+            <p class="stories__desc">Choose between every cutting-edge model from OPenAI, Anthropic, Gemini, and xAI.</p>
+            <a href="#" class="stories__link">Explore models  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" style="fill: rgb(245,78,0);">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg></a>
+            </div>
+            <img class="stories__img" src="./assets/story_3.png" alt="story_3"/>
+          </div>
+        </div>
+      </section>
+      <section class="changelog">
+        <h3 class="changelog__title">Changelog</h3>
+        <div class="changelog__container">
+          <div class="changelog__card">
+            <div class="changelog__subContainer">
+              <p class="changelog__version">2.4</p>
+              <p class="changelog__date">Jan 22,2026</p> 
+            </div>
+            <p class="changelog__data">
+              Subgagents, Skills, and Image Generation
+            </p>
+          </div>
+          <div class="changelog__card">
+            <div class="changelog__subContainer">
+              <p class="changelog__date">Jan 16,2026</p>
+            </div>
+            <p class="changelog__data">
+              CLI Agent Modes and Cloud Handoff
+            </p>
+          </div>
+          <div class="changelog__card">
+            <div class="changelog__subContainer">
+              <p class="changelog__date">Jan 8,2026</p>
+            </div>
+            <p class="changelog__data">
+              New CLI Features and Improved CLI Performance
+            </p>
+          </div>
+          <div class="changelog__card">
+            <div class="changelog__subContainer">
+              <p class="changelog__version">2.3</p>
+              <p class="changelog__date">Dec 22,2025</p>
+            </div>
+            <p class="changelog__data">
+              Layout Customization and Stability Improvements
+            </p>
+          </div>
+        </div>
+        <a class="changelog__link">See what's new in Cursor 
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" style="fill: rgb(245,78,0);">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg>
+        </a>
+      </section>
+      <section class="team">
+        <h2 class="team__title">Cursor is an applied team focused on building the future of coding.</h2>
+        <button class="team__cta">Join us <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" style="fill: rgb(255,255,255);">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg></button>
+        <img class="team__img" src="./assets/team_1.png" alt="team_pic"/>
+      </section>
+      <section class="final">
+        <h2 class="final__title">Try Cursor now.</h2>
+        <button class="btn btn--cta btn--download">
+          Dowload for Windows
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16" style="fill: var(--bg-primary);">
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+          </svg>
+        </button>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="footer__containerOne">
+        <div class="footer__product">
+          <p class="footer__title">Product</p>
+          <ul class="footer__list">
+            <li class="footer__item">Features</li>
+            <li class="footer__item">Enterprise</li>
+            <li class="footer__item">Web Agents</li>
+            <li class="footer__item">Bugbot</li>
+            <li class="footer__item">CLI</li>
+            <li class="footer__item">Pricing</li>
+          </ul>
+        </div>
+        <div class="footer__resource">
+          <p class="footer__title">Resources</p>
+          <ul class="footer__list">
+            <li class="footer__item">Download</li>
+            <li class="footer__item">Changelog</li>
+            <li class="footer__item">Docs</li>
+            <li class="footer__item">Learn</li>
+            <li class="footer__item">Forum</li>
+            <li class="footer__item">Status</li>
+          </ul>
+        </div>
+        <div class="footer__company">
+          <p class="footer__title">Company</p>
+          <ul class="footer__list">
+            <li class="footer__item">Careers</li>
+            <li class="footer__item">Blog</li>
+            <li class="footer__item">Community</li>
+            <li class="footer__item">Workshops</li>
+            <li class="footer__item">Students</li>
+            <li class="footer__item">Brand</li>
+          </ul>
+        </div>
+        <div class="footer__legal">
+          <p class="footer__title">Legal</p>
+          <ul class="footer__list">
+            <li class="footer__item">Terms of Service</li>
+            <li class="footer__item">Privacy Policy</li>
+            <li class="footer__item">Data Use</li>
+            <li class="footer__item">Security</li>
+          </ul>
+        </div>
+        <div class="footer__connect">
+          <p class="footer__title">Connect</p>
+          <ul class="footer__list">
+            <li class="footer__item">X</li>
+            <li class="footer__item">LinkedIn</li>
+            <li class="footer__item">YouTube</li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="footer__containerTwo">
+        <div class="copyright">
+          <span class="copyright__left">© 2026 Cursor</span>
+          <span class="copyright__right">🛡 SOC 2 Certified</span>
+        </div>
+        <div class="footer__containerThree">
+          <div class="modes">
+            <span class=" modes__mode modes__mode--active">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-tv" viewBox="0 0 16 16">
+              <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5M13.991 3l.024.001a1.5 1.5 0 0 1 .538.143.76.76 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.5 1.5 0 0 1-.143.538.76.76 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.5 1.5 0 0 1-.538-.143.76.76 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.5 1.5 0 0 1 .143-.538.76.76 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2"/>
+            </svg>
+            </span>
+            <span class="modes__mode">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-sun" viewBox="0 0 16 16">
+                <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+              </svg>
+            </span>
+            <span class="modes__mode">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+              </svg>
+            </span>
+          </div>
+          <div class="language">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+            </svg>
+            <span class="language__text">English</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
